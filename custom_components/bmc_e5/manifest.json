@@ -1,0 +1,25 @@
+{
+  "domain": "bmc_e5",
+  "name": "BMC",
+  "bluetooth": [
+    {
+      "connectable": true,
+      "local_name": "BMC_E5*",
+      "service_uuid": "0000fe60-0000-1000-8000-00805f9b34fb"
+    }
+  ],
+  "codeowners": [
+    "@xtymmms1021"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "bluetooth",
+    "bluetooth_adapters"
+  ],
+  "documentation": "https://github.com/dajialin/home-assistant-bmc",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/dajialin/home-assistant-bmc/issues",
+  "requirements": [],
+  "version": "0.2.3"
+}

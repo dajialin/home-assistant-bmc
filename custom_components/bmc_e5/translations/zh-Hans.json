@@ -1,0 +1,8 @@
+{
+  "title": "BMC",
+  "config": {
+    "step": {"user": {"title": "连接 BMC", "description": "请先断开 LightTrip。HA 配置目录中须已安装 bmc_e5_protocol.json 协议文件。集成会读取设备以验证连接，不修改治疗设置。", "data": {"address": "蓝牙地址"}}},
+    "error": {"invalid_address": "请输入正确的蓝牙 MAC 地址。", "profile_missing": "本地协议文件缺失或格式不正确，请按安装说明配置。", "cannot_connect": "无法完成握手和读取，请检查蓝牙覆盖并断开 LightTrip。"},
+    "abort": {"already_configured": "此设备已添加。", "not_connectable": "需要支持主动连接的蓝牙适配器或代理。"}
+  }
+}

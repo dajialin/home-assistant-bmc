@@ -1,0 +1,8 @@
+{
+  "title": "BMC",
+  "config": {
+    "step": {"user": {"title": "Connect BMC", "description": "Disconnect LightTrip first. A local protocol profile must be installed as bmc_e5_protocol.json in the HA configuration folder.", "data": {"address": "Bluetooth address"}}},
+    "error": {"invalid_address": "Enter a Bluetooth MAC address.", "profile_missing": "Local protocol profile is missing or invalid.", "cannot_connect": "Could not authenticate and read the device. Check Bluetooth coverage and disconnect LightTrip."},
+    "abort": {"already_configured": "Device is already configured.", "not_connectable": "A connectable Bluetooth adapter is required."}
+  }
+}

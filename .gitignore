@@ -1,0 +1,11 @@
+.venv/
+.venv-ha/
+.pytest_cache/
+bmc_e5_protocol.json
+ssh.txt
+.tools/
+__pycache__/
+evidence/private/
+*.log
+.env
+dist/
